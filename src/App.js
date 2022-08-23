@@ -2,6 +2,7 @@
 import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         imgAlt=""
         gitRepo=""
       />
+      <Form />
       <Footer />
     </div>
   )
