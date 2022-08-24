@@ -1,14 +1,42 @@
 import React from 'react';
-// import './style.css';
+import './style.css';
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
     return (
-        <div>
-            <h3>About Me</h3>
-            <h3>Portfolio</h3>
-            <h3>Contact Me</h3>
-            <h3>Resume</h3>
-        </div>
+        <ul>
+            <li>
+                <p
+                    onClick={() => handlePageChange('About Me')}
+                    // className={currentPage === 'About Me' ? '' : ''}
+                >
+                    About Me
+                </p>
+            </li>
+            <li>
+                <p
+                    onClick={() => handlePageChange('Portfolio')}
+                    // className={currentPage === 'Portfolio' ? '' : ''}
+                >
+                    Portfolio
+                </p>
+            </li>
+            <li>
+                <p
+                    onClick={() => handlePageChange('Contact Me')}
+                    // className={currentPage === 'Contact Me' ? '' : ''}
+                >
+                    Contact Me
+                </p>
+            </li>
+            <li>
+                <p
+                    onClick={() => handlePageChange('Resume')}
+                    // className={currentPage === 'Resume' ? '' : ''}
+                >
+                    Resume
+                </p>
+            </li>
+        </ul>
     )
 }
 
