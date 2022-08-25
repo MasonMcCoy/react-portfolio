@@ -1,12 +1,8 @@
 import React from 'react';
-import './style.css';
+// import './style.css';
 
 function Header() {
-    return (
-        <div>
-            <h1>Mason</h1>
-        </div>
-    )
+    return <h1>Mason McCoy</h1>
 }
 
 export default Header;

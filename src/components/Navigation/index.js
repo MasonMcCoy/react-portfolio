@@ -1,42 +1,43 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import './style.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul>
-            <li>
+        <Nav className="justify-content-end">
+            <Nav.Item>
                 <p
                     onClick={() => handlePageChange('About Me')}
-                    // className={currentPage === 'About Me' ? '' : ''}
+                    className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
                 >
                     About Me
                 </p>
-            </li>
-            <li>
+            </Nav.Item>
+            <Nav.Item>
                 <p
                     onClick={() => handlePageChange('Portfolio')}
-                    // className={currentPage === 'Portfolio' ? '' : ''}
+                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                     Portfolio
                 </p>
-            </li>
-            <li>
+            </Nav.Item>
+            <Nav.Item>
                 <p
                     onClick={() => handlePageChange('Contact Me')}
-                    // className={currentPage === 'Contact Me' ? '' : ''}
+                    className={currentPage === 'Contact Me' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact Me
                 </p>
-            </li>
-            <li>
+            </Nav.Item>
+            <Nav.Item>
                 <p
                     onClick={() => handlePageChange('Resume')}
-                    // className={currentPage === 'Resume' ? '' : ''}
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
                     Resume
                 </p>
-            </li>
-        </ul>
+            </Nav.Item>
+        </Nav>
     )
 }
 
