@@ -1,1 +1,0 @@
-module.exports = `I am an aspiring fullstack developer utilizing MERN stack technogolies. I also have experience with data analytics and visualziation.` 
