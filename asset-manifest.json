@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.018ef5db.css",
+    "main.js": "/react-portfolio/static/js/main.eff3edcb.js",
+    "static/media/homebuddy.PNG": "/react-portfolio/static/media/homebuddy.10ef5d6e2fe8e08388f8.PNG",
+    "static/media/mason.jpg": "/react-portfolio/static/media/mason.10cea95f6ccb793230f8.jpg",
+    "static/media/get-a-move-on.PNG": "/react-portfolio/static/media/get-a-move-on.a572d4e2e7e410eedd4f.PNG",
+    "static/media/weather-dash.PNG": "/react-portfolio/static/media/weather-dash.7fd70469c2b7a5a63275.PNG",
+    "static/media/scheduler.PNG": "/react-portfolio/static/media/scheduler.5eda861d96e19f6cb569.PNG",
+    "static/media/text-editor.PNG": "/react-portfolio/static/media/text-editor.ed10cd056716dbfcad01.PNG",
+    "static/media/code-assessment.PNG": "/react-portfolio/static/media/code-assessment.d7e36f9921304ddd98bf.PNG",
+    "index.html": "/react-portfolio/index.html",
+    "main.018ef5db.css.map": "/react-portfolio/static/css/main.018ef5db.css.map",
+    "main.eff3edcb.js.map": "/react-portfolio/static/js/main.eff3edcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018ef5db.css",
+    "static/js/main.eff3edcb.js"
+  ]
+}
