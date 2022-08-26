@@ -7,6 +7,7 @@ function Skillset() {
             <ul>
                 <li>jQuery</li>
                 <li>DOM Manipulation</li>
+                <li>Client-side storage solutions</li>
                 <li>React</li>
                 <li>Bootstrap, Tailwind, and other popular frameworks</li>
             </ul>

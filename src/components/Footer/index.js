@@ -5,14 +5,14 @@ import './style.css';
 
 function Footer() {
     return (
-        <div>
-            <a href="https://www.linkedin.com/in/mason-mccoy/">
+        <div className="footer">
+            <a href="https://www.linkedin.com/in/mason-mccoy/" className='socials'>
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/MasonMcCoy/">
+            <a href="https://github.com/MasonMcCoy/" className='socials'>
                 <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://stackoverflow.com/users/14188987/masonmccoy">
+            <a href="https://stackoverflow.com/users/14188987/masonmccoy" className='socials'>
                 <FontAwesomeIcon icon={faStackOverflow} />
             </a>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-// import './style.css';
+import './style.css';
 
 function ContactForm() {
     return (
             <Form>
-                <Form.Group>
+                <Form.Group className="form-group">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
